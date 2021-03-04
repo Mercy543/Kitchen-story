@@ -1,0 +1,24 @@
+
+<div style="height: 200px; width: 1200px;height: 60px; border: 2px solid whitesmoke; background-color: whitesmoke;" >
+    <h3 style="text-align: center; margin-left: 6%; color: royalblue;">{{ message }}</h3>
+</div>
+<p></p>
+<table class="table table-stripped">
+    <thead>
+        <th>Product Id</th>
+        <th>Description</th>
+        <th>Actions</th>
+       
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of productList">
+            <td>{{product.id}}</td>
+            <td>{{product.description}}</td>
+            <td>
+               <!-- <a routerLink ='/product-detail'>Details</a>-->
+               <a [routerLink] ="['/product-detail',product.id]">Details</a>
+            </td>
+           
+        </tr>
+    </tbody>
+</table>

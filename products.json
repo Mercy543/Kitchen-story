@@ -1,0 +1,49 @@
+{
+    "products":[
+        {
+            "id":"1",
+            "description":"White Rice with Shrimp Sauce",
+            "feature":"White Rice,Shrimps soy Sauce,tomatoes,olives",
+            "price":"15.00",
+            "images":"src/assets/images/3.Riceandshrimp.jpg"
+        },
+        {
+            "id":"2",
+            "description":"Fried Rice with Pork Sauce",
+            "feature":"rice, pork,tomatoes,beans cooked with special spice",
+            "price":"13.00",
+            "images":"src/assets/images/4.Minced-Pork-Fried-Rice.jpg"
+        },
+        {
+            "id":"3",
+            "description":"Yellow Rice with Beans",
+            "feature":"yellow rice,baked beans in continental sauce,olives,spicy lentils ",
+            "price":"10.00",
+            "images":"src/assets/images/5.yellowriceandbeans.jpg"
+        },
+        {
+            "id":"4",
+            "description":"Creamy Potato Chilli Soup ",
+            "feature":"potato in cheese sauce marinated over smoked pine tomatoes,sweet or spicy",
+            "price":"8.00",
+            "images":"src/assets/images/6.potatochilisoup.jpg"
+
+            
+        },
+        {
+            "id":"5",
+            "description":"Chicken Noodle Soup",
+            "feature":"chicken in gravy noodles with steamy shells noodles ",
+            "price":"8.00",
+            "images":"src/assets/images/7.Chickennoodlesoup.jpg"
+        },
+        {
+            "id":"6",
+            "description":"French Bread with Cheese ",
+            "feature":"soft french bread marinated with olives",
+            "price":"8.00",
+            "images":"src/assets/images/8.cheeseandbread.jpg"
+        }
+        
+    ]
+}

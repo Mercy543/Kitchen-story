@@ -1,0 +1,22 @@
+<div style="height: 200px; width: 400px;height: 60px; border: 2px solid whitesmoke; background-color: whitesmoke;">
+    <h3 style="text-align: center; margin-left:6%; color: royalblue;">{{ message }}</h3>
+</div>
+
+<p></p>
+<div class="card" style="width: 25rem;text-align: center;">
+    <div>
+    <div class="card-header"></div>
+        <b>Meal:  {{this.product.description}}</b>
+        <div>
+           <ul class="list-group list-group">
+               <li class="list-group-item">{{this.product.description}}</li>
+               <li class="list-group-item">Price: ${{this.product.price}}</li>
+               <li class="list-group-item">Feature: {{this.product.feature}}</li>
+               <li class="list-group-item"> <img src="assets/images/5.yellowriceandbeans.jpg"></li>
+           </ul>
+        </div>
+    <div class="card-footer"></div>
+    <a href="#" class="btn btn-secondary" routerLink='/product'>Back to List</a> |
+    <a href="#" class="btn btn-secondary">Select Item</a>
+</div>
+</div>
